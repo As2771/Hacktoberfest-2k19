@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int a[100],b[100],i,j,c,n;
+    int i,j,n;
     printf("enter the number of elements in an arrays\n");
     scanf("%d",&n);
+    int a[n],b[n];
     printf("enter the elements of 1st array\n");
     for(i=0;i<n;i++)
     {
@@ -13,5 +14,13 @@ int main()
     for(j=0;j<n;j++)
     {
         scanf("%d",&b[j]);
+    }
+    printf("The common numbers are: ");
+   for(i=0; i<n; i++){
+	   for(j=0;j<n;j++){
+		   if(a[i]==b[j]){
+			   printf("%d\n", b[j]);
+			   }
+		   }
     }
 }
