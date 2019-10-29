@@ -1,4 +1,4 @@
-// program to search word in a givan sentence
+/1/ program to search word in a givan sentence
 #include<stdio.h>
 #include<string.h>
 int main()
@@ -32,10 +32,10 @@ for (i=0;a[i] != '\0';i++)
 }
 if (f == 1)
 {
-    printf("The word has found\n");
+    printf("The word founded\n");
 }
 else
 {
-    printf("No result found\n");
+    printf("No result founded\n");
 }
 }
